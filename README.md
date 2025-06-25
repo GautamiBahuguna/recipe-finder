@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# 🍲 Recipe Finder App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Discover and explore delicious recipes from around the world — with a strong focus on authentic Indian cuisine!  
+Built using React, this app integrates the Spoonacular API to provide real-time, filterable recipe content.
 
-## Available Scripts
+## 🌐 Live Demo
 
-In the project directory, you can run:
+🔗 [Click here to try the app](https://recipe-finder-o8maxt3v1-gautami-bahugunas-projects.vercel.app)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🔍 **Search Recipes:** Search by name or ingredient
+- 🌍 **Top 10 Global Cuisines:** Indian, Chinese, Mexican, Italian, French, and more
+- 🥗 **Veg / Non-Veg Filter:** Toggle between dietary preferences
+- 📸 **Interactive Recipe Cards:** Hover and click for full details
+- 📖 **Detailed View:** Get ingredients, instructions, and summary
+- 🔐 **Secure API Integration:** API key stored in `.env` (not public)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧰 Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React.js](https://reactjs.org/)
+- [HTML + CSS](https://developer.mozilla.org/)
+- [Spoonacular API](https://spoonacular.com/food-api)
+- [Vercel](https://vercel.com) – for deployment
+- [GitHub](https://github.com) – for version control
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Run Locally
 
-### `npm run eject`
+Clone the project:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/GautamiBahuguna/recipe-finder.git
+cd recipe-finder
+npm install
