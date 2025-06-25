@@ -14,7 +14,7 @@ function App() {
     "Japanese", "French", "Thai", "Spanish", "Moroccan"
   ];
 
-  const API_KEY = "2a02050ea09b43bbafb1d868cc00ac77";
+  const API_KEY = process.env.REACT_APP_API_KEY;
 
   useEffect(() => {
     const fetchRecipes = async () => {
